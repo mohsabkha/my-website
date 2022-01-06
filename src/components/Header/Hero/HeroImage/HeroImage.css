@@ -1,0 +1,13 @@
+.heroImage{
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 70%;
+    border-radius: 50%;
+}
+
+.image{
+    width: 100%;
+    border-radius: 50%;
+}

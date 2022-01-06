@@ -1,0 +1,65 @@
+.container{
+    position: relative;
+    background-color: rgb(25, 25, 25);
+}
+
+.textboxMainStyles{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 100%;
+    text-align: center;
+    font-family: "didot";
+    /* font-family: 'Press Start 2P', cursive; */
+    font-size: 8em;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.textboxMainStyles::after{
+    content: "Software Engineer";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color:rgba(0, 255, 255, 0);
+    position: absolute;
+    transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s; 
+    z-index: -1;
+}
+.textboxMainStyles::after:hover{
+    top: 5%;
+    color:aqua;
+}
+.textboxMainStyles::before{
+    content: "Software Engineer";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    color:rgba(255, 0, 0, 0);
+    transition: all 0.3s ease 0s; 
+    -webkit-transition: all 0.3s ease 0s; 
+    z-index: -1;
+}
+.textboxMainStyles::before:hover{
+    transform: translate(-10%, 0%);
+    color: red;
+}
+.textboxSubStyles{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 100%;
+    text-align: center;
+    font-family: "didot";
+    /* font-family: 'Press Start 2P', cursive; */
+    font-size: 1em;
+}
+

@@ -1,0 +1,32 @@
+.componentStyles{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-decoration: none;
+}
+.textboxStyles{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.linkStyles:visited{
+    color: gb(66, 66, 66);
+}
+
+.linkStyles{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    padding: 5px 20px;
+    letter-spacing: 2px;
+
+    background-color: white;
+    border-radius: 25px;
+}

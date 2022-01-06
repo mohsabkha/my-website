@@ -1,0 +1,63 @@
+:root{
+    --color1: rgb(244, 244, 244);
+    --color2: rgb(66, 66, 66);
+    --color3: rgb(25, 25, 25);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 5vh 95vh 100vh 90vh 10vh;
+}
+
+.nav-grid{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+
+    background-color: rgb(42, 42, 42);
+    color: var(--color1);
+}
+
+.tabs-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    color:white;
+}
+
+.header-grid{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+
+    background-color: var(--color2);
+    color:white;
+}
+
+.section-grid{
+    display: grid;
+    grid-template-rows: 10vh 90vh;
+
+    background-color: var(--color1);
+    color: black;
+    
+}   
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    background-color: var(--color3);
+    color: white;
+}
