@@ -1,0 +1,97 @@
+.container{
+    position: relative;
+    background-color: var(--color4);
+    color:var(--color1);
+    text-align: center;
+    font-family: "didot";
+}
+
+.componentStyles{
+    position: relative;
+    background-color: var(--color1);
+    color: white;
+    text-decoration: none;
+}
+.textboxStyles{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+}
+
+.textboxMainStyles{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    
+    /* font-family: 'Press Start 2P', cursive; */
+    font-size: 6em;
+  
+    text-shadow: 1px 1px 5px white;
+
+    transition-property: all;
+    transition-duration: .5s;
+}
+.textboxMainStyles:hover{
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+.textboxSubStyles{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 100%;
+    /* font-family: 'Press Start 2P', cursive; */
+    font-size: 1em;
+}
+
+.heroImage{
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%;
+    border-radius: 50%;
+}
+
+.innerHeroImage{
+    width: 100%;
+}
+
+.image{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.linkStyles:visited{
+    color: gb(66, 66, 66);
+}
+
+.linkStyles{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    transform: translate(-50%, 50%);
+    z-index: 5;
+
+    width: 50%;
+    font-weight: 700;
+    padding: 10px;
+    letter-spacing: 10px;
+    text-align: center;
+
+    background-color: var(--color4);
+    color: var(--color1);
+    border-radius: 25px;
+}
+
+.linkStyles:hover{
+    background-color: var(--color1);
+    color: var(--color4);
+}

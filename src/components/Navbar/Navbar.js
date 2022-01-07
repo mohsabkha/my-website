@@ -1,13 +1,13 @@
 import React from 'react'
+import Tabs from './Tabs/Tabs';
 
 import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className='nav-grid nav'>
-            <span className='navStyles'>
-                Hi From Navbar
-            </span>
+        <nav className='nav-grid'>
+            <Tabs/>
+            <div className='navStyles'></div>
         </nav>
     )
 }

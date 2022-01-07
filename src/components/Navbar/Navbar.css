@@ -1,10 +1,10 @@
-.nav{
-    
-}
-
 .navStyles {
     text-align: center;
     font-family: "didot";
     font-size: 1em;
     line-height: 5vh;
+    letter-spacing: 5px;
+
+    background-color: var(--color4);
+    color: var(--color4);
 }

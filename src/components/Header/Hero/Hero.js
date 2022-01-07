@@ -1,17 +1,17 @@
 import React from 'react';
 
-import './Hero.css';
+import './../Header.css';
 
 const Hero = () => {
-
     return (
         <div className='container'>
             <span className='textboxSubStyles'>
-                Hi, I'm A <br></br>
+                I'M SABIR<br></br>
             </span>
-            <div className='textboxMainStyles'>
-                    <span>Software</span><br></br>
-                    <span>Engineer</span>
+            <div>
+                <span class='textboxMainStyles'>
+                    I'm A<br></br>Software Engineer
+                </span>
             </div>
         </div>
     )

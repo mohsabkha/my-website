@@ -1,14 +1,12 @@
 import React from 'react'
 
-import HeroImage from '../Hero/HeroImage/HeroImage'
-import './Sidebar.css'
+import HeroImage from './HeroImage/HeroImage'
 
 const Sidebar = () => {
     return (
         <div className='componentStyles'>
-            
             <HeroImage />
-            <a className='linkStyles' href='AboutMe'>Learn More About Me</a>
+            <a className='linkStyles header-button' href='#AboutMe'>Learn More About Me</a>
         </div>
     )
 }
