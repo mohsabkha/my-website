@@ -13,7 +13,9 @@ import './styles/lrgGrid.css';
 const App = () => {
     return (
         <div className='grid'>
+            <nav>
             <Navbar/>
+            </nav>
             <Header/>
             <AboutMe/>
             <Projects/>

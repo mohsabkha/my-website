@@ -1,10 +1,35 @@
-.navStyles {
+.nav-styles {
+    align-self: start;
     text-align: center;
-    font-family: "didot";
     font-size: 1em;
     line-height: 5vh;
     letter-spacing: 5px;
 
-    background-color: var(--color4);
+    background-color: rgba(39, 39, 39, 0);
     color: var(--color4);
+}
+
+a {
+    line-height: 5vh;
+    letter-spacing: 2px;
+    text-align: center;
+    color:white;
+}
+
+.tab-styles{
+    font-family: 'Special Elite', cursive;
+    line-height: 5vh;
+    letter-spacing: 2px;
+    text-align: center;
+    color:white;
+}
+.tab-styles:-webkit-any-link{
+    line-height: 5vh;
+    letter-spacing: 2px;
+    text-align: center;
+    color:white;
+}
+
+.tab-styles:visited{
+    color: white;
 }

@@ -5,10 +5,10 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <nav className='nav-grid'>
+        <div className='nav-grid'>
             <Tabs/>
-            <div className='navStyles'></div>
-        </nav>
+            <div className='nav-styles'></div>
+        </div>
     )
 }
 

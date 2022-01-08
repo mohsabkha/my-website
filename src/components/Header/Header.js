@@ -6,7 +6,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className='header-grid'>
+        <div className='header-grid header-styles'>
             <Hero/>
             <Sidebar/>
         </div>

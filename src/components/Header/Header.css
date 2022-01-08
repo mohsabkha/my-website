@@ -1,66 +1,67 @@
-.container{
-    position: relative;
-    background-color: var(--color4);
-    color:var(--color1);
-    text-align: center;
-    font-family: "didot";
+.header-styles{
+    background-color: var(--c2);
+    color: black;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.493)), repeating-linear-gradient(to bottom,rgb(0, 0, 0), var(--c3) 2px,var(--c2) 2px);
+    text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
 }
 
-.componentStyles{
+.hero-styles{
     position: relative;
-    background-color: var(--color1);
-    color: white;
-    text-decoration: none;
+    text-align: center;
 }
-.textboxStyles{
+.hero-subtext-styles{
     position: absolute;
-    top: 35%;
-    left: 50%;
+    top: 20%;
+    left: 70%;
     transform: translate(-50%, 50%);
     width: 100%;
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
+    font-family: 'Press Start 2P', cursive;
+
+
 }
 
-.textboxMainStyles{
+.hero-maintext-styles{
     position: absolute;
-    top: 10%;
-    left: 50%;
+    top: 30%;
+    left: 70%;
     transform: translate(-50%, 20%);
     
-    /* font-family: 'Press Start 2P', cursive; */
-    font-size: 6em;
-  
-    text-shadow: 1px 1px 5px white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3em;
+   
+    animation-name: textflicker;
+    animation-duration: .01s;;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
-    transition-property: all;
-    transition-duration: .5s;
-}
-.textboxMainStyles:hover{
-    top: 12%;
-    left: 50%;
-    transform: translate(-50%, 20%);
-}
-.textboxSubStyles{
+.textbox_sub-styles{
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, 50%);
     width: 100%;
-    /* font-family: 'Press Start 2P', cursive; */
+    
     font-size: 1em;
 }
 
-.heroImage{
+.hero-image{
     position: relative;
     top: 25%;
     left: 50%;
     transform: translate(-50%);
     width: 50%;
-    border-radius: 50%;
+
+    animation-name: imageBounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
 }
 
-.innerHeroImage{
+
+img{
     width: 100%;
 }
 
@@ -69,29 +70,108 @@
     border-radius: 50%;
 }
 
-.linkStyles:visited{
-    color: gb(66, 66, 66);
+.sidebar-styles{
+    position: relative;
+    text-decoration: none;
 }
 
-.linkStyles{
+.sidebar-link-styles{
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 10%;
     transform: translate(-50%, 50%);
     z-index: 5;
 
-    width: 50%;
+    width: 70%;
     font-weight: 700;
-    padding: 10px;
+    font-size: 2em;
+    padding: 10px 10px;
     letter-spacing: 10px;
     text-align: center;
 
-    background-color: var(--color4);
-    color: var(--color1);
+    font-family: 'Press Start 2P', cursive;
+    background-color: var(--c2);
+    color: white;
     border-radius: 25px;
+
+    transition-property: all;
+    transition-duration: .25s;
 }
 
-.linkStyles:hover{
-    background-color: var(--color1);
-    color: var(--color4);
+.sidebar-link-styles:hover{
+    background-color: var(--c3);
+    color: white;
+    text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
 }
+
+.sideebar-link-styles:visited{
+    color: rgb(66, 66, 66);
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, 20%);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes imageBounce{
+    0%{
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    50%{
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    75%{
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    85%{
+        top: 26%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    95%{
+        top: 24.5%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    100%{
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+@keyframes bgEffect {
+    0%{
+        background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.493)), repeating-linear-gradient(to bottom,rgb(0, 0, 0), var(--c3) 5px,var(--c2) 5px);
+    }
+    
+    50%{
+        background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.493)), repeating-linear-gradient(to bottom,rgb(0, 0, 0), var(--c3) 1px,var(--c2) 1px);
+    }
+ 
+    100%{
+        background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.493)), repeating-linear-gradient(to bottom,rgb(0, 0, 0), var(--c3) 5px,var(--c2) 5px);
+    }
+}
+
+@keyframes textflicker {
+    from {
+      text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    }
+    to {
+      text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+  }

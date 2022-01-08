@@ -1,8 +1,15 @@
 :root{
-    --color1: rgb(23, 27, 32);
-    --color2: rgb(57, 62, 70);
-    --color3: rgb(0, 173, 181);
+    --color1: rgb(32, 29, 23);
+    --color2: rgb(70, 62, 57);
+    --color3: rgb(0, 163, 181);
     --color4: rgb(238, 238, 238);
+    --colorPop: rgb(214, 36, 134);
+
+    --c2: #8E806A;
+    --c1: #C3B091;
+    --c3: #E4CDA7;
+    --c4: #FFE6BC;
+    --c5: #302614;
 }
 
 *{
@@ -11,17 +18,22 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+   
 }
 
 .grid{
     display: grid;
     grid-template-columns: 1fr; 
     grid-template-rows: 5vh 95vh 100vh 90vh 10vh;
+    
+    background-color: rgb(25, 25, 25);
 }
 
 .nav-grid{
     display: grid;
     grid-template-columns: 50vw 50vw;
+    position: sticky;
+    align-self: start;
 }
 
 
@@ -34,12 +46,19 @@
 .header-grid{
     display: grid;
     grid-template-columns: 3fr 5fr;
+    
 }
 
 .section-grid{
     display: grid;
     grid-template-rows: 10vh 90vh;
+    font-family: 'Press Start 2P', cursive;
 }   
+
+.slideshow-grid{
+    display:grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
 
 .cards-grid{
     display: grid;
@@ -50,4 +69,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 
+}
+
+.section-title{
+    line-height: 10vh;
+    padding-left: 5vh;
+    font-size: 3em;
 }

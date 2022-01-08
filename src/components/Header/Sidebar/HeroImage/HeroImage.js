@@ -1,11 +1,14 @@
 import React from 'react'
 
-import Image from './../../../../images/landingTitle.png';
+import Image from './../../../../images/boxyV2Template.png';
 
 const HeroImage = () => {
     return (
-        <div className='heroImage'>
-            <img className='innerHeroImage' src={Image} alt='mohammad sabir khan'></img>
+        <div className='hero-image'>
+            <div className='hero-image_inner'>
+                    <img  src={Image} alt='mohammad sabir khan'></img>
+            </div>
+           
         </div>
     )
 }

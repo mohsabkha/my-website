@@ -1,9 +1,8 @@
 import React from 'react'
 
-import './Tabs.css'
 const Tabs = () => {
     return (
-        <div className='tabs-grid tabStyles navStyles'>
+        <div className='tabs-grid tab-styles nav-styles'>
             <div>
                 <a href='#'>About Me</a>
             </div>

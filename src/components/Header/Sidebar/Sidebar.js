@@ -4,9 +4,9 @@ import HeroImage from './HeroImage/HeroImage'
 
 const Sidebar = () => {
     return (
-        <div className='componentStyles'>
+        <div className='sidebar-styles'>
             <HeroImage />
-            <a className='linkStyles header-button' href='#AboutMe'>Learn More About Me</a>
+            <a className='sidebar-link-styles' href='#AboutMe'>Learn More About Me</a>
         </div>
     )
 }
