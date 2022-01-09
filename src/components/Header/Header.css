@@ -32,7 +32,7 @@
     font-size: 3em;
    
     animation-name: textflicker;
-    animation-duration: .01s;;
+    animation-duration: .09s;;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -57,7 +57,18 @@
     animation-name: imageBounce;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+}
+.hero-image_inner{
+    width: 25em;
+    height: 18em;
+    background: url('./../../images/boxyV2Template.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
 
+    animation-name: blink;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 
@@ -168,10 +179,85 @@ img{
 }
 
 @keyframes textflicker {
-    from {
-      text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    0% {
+        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
     }
-    to {
-      text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    5% {
+        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
     }
+    10% {
+        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+      }
+    15% {
+        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+    20% {
+        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    }
+    25% {
+        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+    30% {
+        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    }
+    35% {
+        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+    40% {
+        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    }
+    45% {
+        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+    50% {
+        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    }
+    55% {
+        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+    60% {
+        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    }
+    65% {
+        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+    70% {
+        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+    }
+    75% {
+        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+    80% {
+        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+      }
+    85% {
+        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+    90% {
+        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        }
+    100% {
+        text-shadow: 5px 0.5px 2px #ea36af, -5px -0.5px 2px #75fa69;
+    }
+  }
+
+  @keyframes blink {
+      0%{
+        background: url('./../../images/boxyV2Template.png');
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: cover;
+      }
+      95%{
+        background: url('./../../images/boxyV2Template.png');
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: cover;
+      }
+      100%{
+        background: url('./../../images/boxyV3Template_1.png');
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: cover;
+      }
   }

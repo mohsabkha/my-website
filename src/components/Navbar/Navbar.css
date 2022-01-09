@@ -4,6 +4,7 @@
     font-size: 1em;
     line-height: 5vh;
     letter-spacing: 5px;
+    text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
 
     background-color: rgba(39, 39, 39, 0);
     color: var(--color4);
