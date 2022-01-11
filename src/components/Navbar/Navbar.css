@@ -4,10 +4,9 @@
     font-size: 1em;
     line-height: 5vh;
     letter-spacing: 5px;
-    text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+    text-shadow: 0.06rem 0 0.06rem var(--secondary), -0.125rem 0 0.06rem var(--main);
 
-    background-color: rgba(39, 39, 39, 0);
-    color: var(--color4);
+    background-color: black;
 }
 
 a {
@@ -22,7 +21,6 @@ a {
     line-height: 5vh;
     letter-spacing: 2px;
     text-align: center;
-    color:white;
 }
 .tab-styles:-webkit-any-link{
     line-height: 5vh;

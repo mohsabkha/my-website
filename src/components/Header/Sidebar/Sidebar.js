@@ -6,7 +6,7 @@ const Sidebar = () => {
     return (
         <div className='sidebar-styles'>
             <HeroImage />
-            <a className='sidebar-link-styles' href='#AboutMe'>Learn More About Me</a>
+            <a className='sidebar-link-styles' href='#AboutMe'>Click Here!</a>
         </div>
     )
 }

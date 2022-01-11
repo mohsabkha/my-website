@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Cards from './Cards/Cards';
+import './Projects.css';
 
 const Projects = () => {
     return (
-        <div className='section-grid'>
-            hello from projects
-        </div>
+        <section className='section-grid' id='Projects'>
+            <h2 className='section-title'>Projects</h2>
+            <Cards/>
+        </section>
     )
 }
 

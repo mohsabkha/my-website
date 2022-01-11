@@ -4,10 +4,10 @@ import './AboutMe.css'
 
 const AboutMe = () => {
     return (
-        <div className='section-grid aboutMe' id='AboutMe'>
+        <section className='section-grid aboutMe' id='AboutMe'>
             <h2 className='section-title'>About Me</h2>
             <Slideshow/>
-        </div>
+        </section>
     )
 }
 

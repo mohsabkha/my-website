@@ -1,8 +1,7 @@
 .header-styles{
     background-color: var(--c2);
-    color: black;
-    background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.493)), repeating-linear-gradient(to bottom,rgb(0, 0, 0), var(--c3) 2px,var(--c2) 2px);
-    text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+    color: var(--main);
+    text-shadow: 0.06rem 0 0.06rem var(--secondary), -0.125rem 0 0.06rem var(--main);
 }
 
 .hero-styles{
@@ -31,7 +30,7 @@
     font-family: 'Press Start 2P', cursive;
     font-size: 3em;
    
-    animation-name: textflicker;
+    animation-name: textFlicker;
     animation-duration: .09s;;
     animation-iteration-count: infinite;
     animation-direction: alternate;
@@ -65,6 +64,9 @@
     background-repeat: no-repeat;
     background-position: top left;
     background-size: cover;
+
+    filter: drop-shadow(1px 1px 10px var(--main));
+    -webkit-filter: drop-shadow(1px 1px 5px var(--main));;
 
     animation-name: blink;
     animation-duration: 4s;
@@ -111,8 +113,8 @@ img{
 
 .sidebar-link-styles:hover{
     background-color: var(--c3);
-    color: white;
-    text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    color: var(--main);
+    text-shadow: 3px 0.5px 2px var(--secondary), -3px -0.5px 2px var(--main);
 }
 
 .sideebar-link-styles:visited{
@@ -178,66 +180,66 @@ img{
     }
 }
 
-@keyframes textflicker {
+@keyframes textFlicker {
     0% {
-        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
     }
     5% {
-        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
     }
     10% {
-        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
       }
     15% {
-        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
     }
     20% {
-        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
     }
     25% {
-        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
     }
     30% {
-        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
     }
     35% {
-        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
     }
     40% {
-        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
     }
     45% {
-        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
     }
     50% {
-        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
     }
     55% {
-        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
     }
     60% {
-        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
     }
     65% {
-        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
     }
     70% {
-        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
     }
     75% {
-        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
     }
     80% {
-        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
       }
     85% {
-        text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
     }
     90% {
-        text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
         }
     100% {
-        text-shadow: 5px 0.5px 2px #ea36af, -5px -0.5px 2px #75fa69;
+        text-shadow: 5px 0.5px 2px var(--secondary), -5px -0.5px 2px var(--main);
     }
   }
 

@@ -29,12 +29,12 @@ const Slideshow = () => {
                 return <Slide title={slidee.title} text={el.text}/>
             })} */}
             <div className='slideshow-button-styles'>
-                <button className='slideshow-button' onClick={handlePrev}><HiArrowNarrowLeft/></button>
+                <button className='slideshow-button-left' onClick={handlePrev}><HiArrowNarrowLeft/></button>
             </div>
             
-            <Slide title={slides[slide].title} text={slides[slide].text} slideId={slides[slide].id}/>
+            <Slide title={slides[slide].title} text={slides[slide].text} slideId={slides[slide].id} pic={slides[slide].pic}/>
             <div className='slideshow-button-styles'>
-                <button className='slideshow-button' onClick={hanldeNext}><HiArrowNarrowRight/></button>
+                <button className='slideshow-button-right' onClick={hanldeNext}><HiArrowNarrowRight/></button>
             </div>
         </div>
     )

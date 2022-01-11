@@ -1,0 +1,45 @@
+
+.card{
+    width: 100%;
+    border: 2px solid var(--main);
+    border-radius: 50px;
+    box-shadow: 3px -3px 20px var(--main);
+    color: white;
+    position: relative;
+}
+.card:hover{
+    border: 2px solid var(--secondary);
+    box-shadow: 3px -3px 20px var(--secondary);
+    color: var(--main);
+}
+
+.card-title{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-text{
+    font-family: 'Special Elite', cursive;
+    line-height: 2em;
+    position: absolute;
+    padding: 1em;
+    width: 80%;
+    height: 200px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: scroll;
+
+}
+
+.card-link{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card-link:hover{
+    color: var(--main);
+}

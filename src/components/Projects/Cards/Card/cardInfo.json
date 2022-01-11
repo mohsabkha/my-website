@@ -1,0 +1,7 @@
+{
+    "cards":[
+        {"id":0, "title":"Ray Tracer", "text":"A piece of software to generate ray traced images. Currently can generate images, but a second version is currently under way to generate ray traced video", "link":"l0"},
+        {"id":1, "title":"Hero Test", "text":"A piece of software built on top of 2 different APIs. The first is a personality api built on top of the Big 5 personality traits commonly used in psychology. The second API evaluates the results and returns an interpretation: WHAT TYPE OF HERO ARE YOU??!!", "link":"l1"},
+        {"id":2, "title":"Web Scraper", "text":"A piece of software that can dynamically scrape and crawl webpages.", "link":"l2"}
+    ]
+}

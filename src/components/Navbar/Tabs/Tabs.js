@@ -4,16 +4,16 @@ const Tabs = () => {
     return (
         <div className='tabs-grid tab-styles nav-styles'>
             <div>
-                <a href='#'>About Me</a>
+                <a href='#Home'>Home</a>
             </div>
             <div>
-                <a href='#'>Projects</a>
+                <a href='#AboutMe'>About Me</a>
             </div>
             <div>
-                <a href='#'>Socials</a>
+                <a href='#Projects'>Projects</a>
             </div>
             <div>
-                <a href='#'>Blog</a>
+                <a href='#Blog'>Blog</a>
             </div>
         </div>
     
