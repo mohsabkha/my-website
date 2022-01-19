@@ -65,7 +65,7 @@ const Slide = (props) => {
                         <p>{props.text}</p>
                     </div>
                 </div>
-                <div>
+                <div className='slide-image-box'>
                     {myImage}
                 </div>
             </div>
