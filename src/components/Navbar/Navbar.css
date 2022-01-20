@@ -6,7 +6,7 @@
     letter-spacing: 5px;
     text-shadow: 0.06rem 0 0.06rem var(--secondary), -0.125rem 0 0.06rem var(--main);
 
-    background-color: black;
+    background-color: var(--c1);
 }
 
 a {

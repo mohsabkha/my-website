@@ -29,6 +29,7 @@
     
     font-family: 'Press Start 2P', cursive;
     font-size: 3em;
+    color: white;
    
     animation-name: textFlicker;
     animation-duration: .09s;;
