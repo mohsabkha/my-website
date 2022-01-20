@@ -45,13 +45,13 @@
 }
 
 .slideshow-button-left:hover{
-    background-color: var(--c4);
+    background-color: var(--c1);
     color: var(--main);
     box-shadow: 1rem 0 0.06rem #ea36ae6b, 2rem 0 0.06rem var(--main);
     transform: rotate3d(-1deg)
 }
 .slideshow-button-right:hover{
-    background-color: var(--c4);
+    background-color: var(--c1);
     color: var(--main);
     box-shadow: -1rem 0 0.06rem #ea36ae6b, -2rem 0 0.06rem var(--main);
     transform: rotate3d(-1deg)

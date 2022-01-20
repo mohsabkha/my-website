@@ -1,5 +1,5 @@
 .header-styles{
-    background-color: var(--c2);
+    background-color: var(--c1);
     color: var(--main);
     text-shadow: 0.06rem 0 0.06rem var(--secondary), -0.125rem 0 0.06rem var(--main);
 }
@@ -103,7 +103,7 @@ img{
     text-align: center;
 
     font-family: 'Press Start 2P', cursive;
-    background-color: var(--c2);
+    background-color: var(--c1);
     color: white;
     border-radius: 25px;
 
@@ -112,7 +112,7 @@ img{
 }
 
 .sidebar-link-styles:hover{
-    background-color: var(--c3);
+    background-color: var(--c1);
     color: var(--main);
     text-shadow: 3px 0.5px 2px var(--secondary), -3px -0.5px 2px var(--main);
 }
@@ -168,15 +168,15 @@ img{
 
 @keyframes bgEffect {
     0%{
-        background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.493)), repeating-linear-gradient(to bottom,rgb(0, 0, 0), var(--c3) 5px,var(--c2) 5px);
+        background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.493)), repeating-linear-gradient(to bottom,rgb(0, 0, 0), var(--c1) 5px,var(--c1) 5px);
     }
     
     50%{
-        background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.493)), repeating-linear-gradient(to bottom,rgb(0, 0, 0), var(--c3) 1px,var(--c2) 1px);
+        background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.493)), repeating-linear-gradient(to bottom,rgb(0, 0, 0), var(--c1) 1px,var(--c1) 1px);
     }
  
     100%{
-        background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.493)), repeating-linear-gradient(to bottom,rgb(0, 0, 0), var(--c3) 5px,var(--c2) 5px);
+        background-image: radial-gradient(rgba(255, 255, 255, 0.589), rgba(0, 0, 0, 0.493)), repeating-linear-gradient(to bottom,rgb(0, 0, 0), var(--c1) 5px,var(--c1) 5px);
     }
 }
 
