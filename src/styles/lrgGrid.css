@@ -2,6 +2,9 @@
     --c1: #8E806A;
     --main: #C3B091;
     --secondary: #FFE6BC;
+
+    --shadow-primary: rgb(0, 238, 255);
+    --shadow-secondary: rgb(255, 0, 72);
 }
 
 *{

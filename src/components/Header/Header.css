@@ -17,8 +17,6 @@
     text-align: center;
     font-size: 1em;
     font-family: 'Press Start 2P', cursive;
-
-
 }
 
 .hero-maintext-styles{
@@ -183,64 +181,13 @@ img{
 
 @keyframes textFlicker {
     0% {
-        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
-    }
-    5% {
-        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
-    }
-    10% {
-        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
-      }
-    15% {
-        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
-    }
-    20% {
-        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
-    }
-    25% {
-        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
-    }
-    30% {
-        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
-    }
-    35% {
-        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
-    }
-    40% {
-        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
-    }
-    45% {
-        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
+        text-shadow: 1px 0 0 var(--shadow-secondary), -2px 0 0 var(--shadow-primary);
     }
     50% {
-        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
+        text-shadow: 2px 0.5px 2px var(--shadow-secondary), -1px -0.5px 2px var(--shadow-primary);
     }
-    55% {
-        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
-    }
-    60% {
-        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
-    }
-    65% {
-        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
-    }
-    70% {
-        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
-    }
-    75% {
-        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
-    }
-    80% {
-        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
-      }
-    85% {
-        text-shadow: 2px 0.5px 2px var(--secondary), -1px -0.5px 2px var(--main);
-    }
-    90% {
-        text-shadow: 1px 0 0 var(--secondary), -2px 0 0 var(--main);
-        }
     100% {
-        text-shadow: 5px 0.5px 2px var(--secondary), -5px -0.5px 2px var(--main);
+        text-shadow: 5px 0.5px 2px var(--shadow-secondary), -5px -0.5px 2px var(--shadow-primary);
     }
   }
 
